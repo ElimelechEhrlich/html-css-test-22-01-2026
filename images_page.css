@@ -1,0 +1,109 @@
+#header {
+    background: rgb(100, 100, 100, 0);
+    position: fixed;
+    width: 100vw;
+    height: 6vh;
+}
+
+.text_link {
+    text-decoration: none;
+    font-family: system-ui;
+}
+
+#right_side {
+    position: absolute;
+    width: 11vw;
+    height: 4vh;
+    top: 50%;
+    left: 94.5%;
+    transform: translate(-50%, -50%);
+}
+
+#login_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 6px 9px;
+    background-color: rgb(10 10 10);
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+#signin_text {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    color: rgb(62 52 64);
+    padding: 6px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#question_icon {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+#center_navigation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: menu;
+}
+
+#center_navigation a {
+    color: rgb(149 150 153);
+    margin: 14px;
+}
+
+
+#left_side {
+    position: absolute;
+    width: 6%;
+    height: 90%;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+}
+
+#chatgpt_icon {
+    position: absolute;
+    width: 21%;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#chatgpt_text {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-style: menu;
+    color: black;
+}
+
+
+#angle {
+    position: absolute;
+    width: 8.5%;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
