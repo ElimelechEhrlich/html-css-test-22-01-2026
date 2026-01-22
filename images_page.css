@@ -107,3 +107,8 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+div img {
+    border-radius: 20px;
+    width: 130px;
+}
