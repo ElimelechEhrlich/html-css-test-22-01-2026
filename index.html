@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,58 @@
     <link rel="stylesheet" href="index.css">
     <title>Index</title>
 </head>
+
 <body>
-    
+    <header id="header">
+        <section id="right_side">
+            <a class="text_link" id="login_text" href="">Log in</a>
+            <a class="text_link" id="signin_text" href="">Sige up for free</a>
+            <a href=""><img id="question_icon" src="icons_and_images/question-circle.svg" alt="Request info"></a>
+        </section>
+        <nav id="center_navigation">
+            <a class="text_link" href="">About</a>
+            <a class="text_link" href="">Features</a>
+            <a class="text_link" href="">Learn</a>
+            <a class="text_link" href="">Busines</a>
+            <a class="text_link" href="">Pricing</a>
+            <a class="text_link" href="">Images</a>
+            <a class="text_link" href="">Download</a>
+        </nav>
+        <section id="left_side">
+            <img id="chatgpt_icon" src="icons_and_images/chatgpt-icon.png" alt="ChatGPT Logo">
+            <a class="text_link" id="chatgpt_text" href="">ChatGPT</a>
+            <a href=""><img id="angle" src="icons_and_images/angle_down-48_46776.png" alt="Angle"></a>
+        </section>
+    </header>
+    <main>
+        <h1 id="headline">What`s on the agenda today?</h1>
+        <form action="" method="get">
+            <!-- <label for="Ask input"></label> -->
+            <section>
+                <input type="text" id="ask_input" placeholder="Ask anything" minlength="2" required>
+                <button class="butoms_main">
+                    <img class="butoms_imgs" src="icons_and_images/paperclip.png" alt="paperclip">
+                    <span class="butoms_text">Attach</span>
+                </button>
+                <button class="butoms_main">
+                    <img class="butoms_imgs" src="icons_and_images/globe.svg" alt="global">
+                    <span class="butoms_text">Search</span>
+                </button>
+                <button class="butoms_main">
+                    <img class="butoms_imgs" src="icons_and_images/open-book (1).png" alt="openbook">
+                    <span class="butoms_text">Study</span>
+                </button>
+                <button class="butoms_main">
+                    <img class="butoms_imgs" src="icons_and_images/images.svg" alt="images">
+                    <span class="butoms_text">Create image</span>
+                </button>
+                <button id="voice_butom" class="butoms_main">
+                    <img id="voice_img" class="butoms_imgs" src="icons_and_images/sound-waves.png" alt="sound">
+                    <span id="voice_text" class="butoms_text">Voice</span>
+                </button>
+            </section>
+        </form>
+    </main>
 </body>
+
 </html>
